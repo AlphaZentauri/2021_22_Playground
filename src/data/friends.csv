@@ -1,0 +1,10 @@
+from dataclasses import dataclass
+
+@datclass
+class PersonDataClass:
+    firstname: str
+    lastname: str
+    birthdate: str
+
+p = PersonDataClass("Rainer", "Amler", "04.02.1980")
+print(p)
