@@ -20,3 +20,4 @@ def printPersonen(persons):
     if name == main:
         printPersons(persons)
 
+read_csv(friends)
